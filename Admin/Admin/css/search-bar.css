@@ -1,0 +1,62 @@
+form.example input[type=text] {
+
+    padding: 10px;
+
+    font-size: 17px;
+
+    border: 0px solid grey;
+
+    float: left;
+
+    width: 80%;
+	
+    background: rgba(255,255,255,0.9);
+
+                
+
+}
+
+ 
+
+form.example button {
+
+    float: left;
+
+    width: 20%;
+
+    padding: 10px;
+
+    background: #2196F3;
+
+    color: white;
+
+    font-size: 17px;
+
+    border: 0px solid grey;
+
+    border-left: none;
+
+    cursor: pointer;
+
+
+}
+
+ 
+
+form.example button:hover {
+
+    background: #0b7dda;
+
+}
+
+ 
+
+form.example::after {
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+}

@@ -1,0 +1,35 @@
+.active{
+	background:white;
+	border-top-left-radius: 25px  ;
+	margin-left:20px;
+	margin-right:250px;
+	color:black;
+}
+
+.addOn{
+	/*background-color:rgba(0,48,63,1); */
+	background:#0277BD;
+	color:white;
+	
+}
+
+.addOn a{
+	padding-top:20px!important;padding-bottom:20px!important
+	
+	
+}
+.addOn a:hover{
+	background-color:transparent !important;
+	text-decoration:none !important;
+	color:white !important;
+	margin-left:20px;
+	margin-right:250px;
+}
+body{font-family: Georgia !important;
+}
+h1{font-family: Georgia !important;}
+h2{font-family: Georgia !important;}
+h3{font-family: Georgia !important;}
+h4{font-family: Georgia !important;}
+
+

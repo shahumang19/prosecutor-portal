@@ -1,0 +1,268 @@
+.btn{
+	border-radius:15px;
+	background-color:#00303f;
+	box-shadow:5px 5px 5px 5px rgba(0,0,0,0.1);
+	float:left;
+	color:white;
+	display:box;
+	/*padding: 25px 70px;*/
+	margin-right:50px;
+	margin-top:40px;
+	cursor: pointer;
+	text-align: center;
+	width:200px;
+	height:70px;
+	position:relative;
+}
+
+.btn-2{
+	
+	float:down;
+	
+}
+
+.btn:active{
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+   
+}
+.bground{
+	width:100%;
+	height:500px;
+	background:#37B9E9;
+	position:relative;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.circle {
+    background: rgba(255,255,255,0.3);
+	border:3px solid white;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+	cursor:pointer;
+	resize:vertical;
+}
+.circle:active{
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.circle:hover{
+	
+	background:#0277BD;
+}
+h4::selection{
+	outline:none;
+}
+img::selection{
+	outline:none;
+}
+.collapse{
+	 background-color: #0277BD;
+	 border-radius:5px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 95%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+	margin-left:18px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.bgcolour{
+	background-color:white;
+	margin-left:40px;
+	margin-right:40px;
+	padding:20px;
+	
+}
+.bgcolour button{
+	background-color:#2196F3;
+	color:white;
+	border:1px solid black;
+	border-radius:5px;
+	cursor:pointer;
+}
+.bgcolour button:hover{
+	background-color:#0b7dda;
+	
+}
+/* ----- case view ------ */
+.card_view2{
+	
+	background-color:white;
+    
+    padding: 20px;
+	border-radius:5px;	
+	
+	margin-left:40px !important;
+	margin-bottom:30px !important;
+	margin-right:40px !important;
+	text-align:center !important;
+	margin-top:10px !important;
+	border:2px solid rgba(0,0,0,0.1) !important;
+}
+.card_view-body{
+	padding:5px !important;
+	text-align:justify !important;
+}
+.card_view-header{
+	border-bottom:1px solid rgba(0,0,0,0.1) !important;
+	 text-align:center !important;
+	padding:10px !important;
+}
+.card_view-footer{
+	
+	border-top:1px solid rgba(0,0,0,0.1) !important;
+	padding:30px !important;
+	
+}
+.comment-box{
+	background-color:white;
+	width:95%;
+	height:80%;
+	margin-left:20px;
+	margin-right:20px;
+	max-width:100%;
+	padding:60px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:left;
+}
+ button{
+	background-color:#2196F3 !important;
+	border:1px solid black;
+	color:white !important;
+	border-radius:5px;
+	cursor:pointer;
+}
+ button::selection{
+	outline:none;
+	background:transparent;
+	
+}
+
+ button:hover{
+	background-color:#0b7dda;
+}
+.comment-box textarea::selection{
+	outline:none;
+	border:none;
+	
+}
+.comment-box textarea{
+	max-width:100%;
+	
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    /* padding: 12px; */
+     border: 1px solid #ccc; 
+    border-radius: 3px; 
+    resize: vertical;
+}
+input[type=date],select,input[type=time]{
+	  border: 1px solid #ccc; 
+    border-radius: 3px; 
+    resize: vertical;
+}
+select{
+	resize:vertical;
+	
+	
+}
+label,select {
+ 
+    display: inline-block;
+}
+.card_view-footer button{
+	/* float:left; */
+	margin-left:10px; 
+	width: 100px;
+	height:30px;
+	margin-bottom:30px;
+	
+}
+/* ------------ search bar ----------- */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 0px solid grey;
+    float: left;
+    width: 80%;
+    background: rgba(255,255,255,0.9);
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 0px solid grey;
+    border-left: none;
+    cursor: pointer;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.capitals{
+	text-transform:uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    input[type=time],input[type=text],input[type=date],select,input[type=textarea] {
+        width: 100%;
+        margin-top: 0;
+    }
+	
+}
+@media screen and (max-width: 600px) {
+	.circle {
+		margin-left: 10px;
+		width:150px;
+		height: 150px;
+		
+	}
+	.circle h4
+	{
+		font-size: 15px;
+	}
+	.circle img
+	{
+		margin-left:45px !important;
+	}
+}

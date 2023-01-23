@@ -1,0 +1,199 @@
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 0px solid grey;
+    float: left;
+    width: 80%;
+    background: rgba(255,255,255,0.9);
+	margin-top:35%;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 0px solid grey;
+    border-left: none;
+    cursor: pointer;
+	margin-top:35%;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.bground{
+	width:100%;
+	height:500px;
+	background:#37B9E9;
+	
+	
+	
+}
+.card_view{
+	float:left;
+	background-color:white;
+	/* box-shadow: 0.5px 0.5px 1px 0.5px rgba(0,0,0,0.2); */
+	border-radius:5px;	
+	max-width:100%;
+	max-height:700px;
+	margin-left:50px;
+	margin-top:50px;
+	margin-bottom:30px;
+	border-bottom:75%;
+	margin-right:10px;
+	position:relative;
+	padding-bottom:5px;
+	padding-left:7px;
+	padding-right:7px;
+	text-align:center;
+	width:90%;
+	height:100px;
+	border:2px solid rgba(0,0,0,0.1);
+}
+.text{
+	font-size:50%;
+	color:grey;
+	float:left;
+}
+h3::selection{
+	text-decoration:none;
+	
+	
+}
+h3:hover{
+	color:blue;
+	cursor:pointer;
+	
+}
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#text{
+	   position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    top: 50%;
+    left: 50%;
+   width:50%;
+   height:50%;
+   display:block;
+    background: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+	 -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+    animation-duration: 0.4s;
+	z-index:2px;
+}
+.content_body {
+	padding: 2px 16px;
+	
+}
+.footer{
+	 padding: 2px 16px;
+    background-color: #f6f6f6;
+    color: white;
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	margin-right:5px;
+}
+.card_view2{
+	background-color:white;
+    
+    padding: 20px;
+	border-radius:5px;	
+	
+	margin-left:40px;
+	margin-bottom:30px;
+	margin-right:40px;
+	text-align:center;
+	margin-top:10px;
+	border:2px solid rgba(0,0,0,0.1);
+}
+.card_view-body{
+	padding:5px;
+}
+.card_view-header{
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	text-align:left;
+	padding:10px;
+}
+.card_view-footer{
+	
+	border-top:1px solid rgba(0,0,0,0.1);
+	padding:30px;
+	
+}
+.comment-box{
+	background-color:#f7f7f7;
+	width:95%;
+	height:80%;
+	margin-left:20px;
+	margin-right:20px;
+	max-width:100%;
+	padding:60px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:left;
+}
+.comment-box button{
+	background-color:#2196F3;
+	border:1px solid black;
+	color:white;
+	border-radius:5px;
+	cursor:pointer;
+}
+.comment-box button::selection{
+	outline:none;
+	background:transparent;
+	
+}
+
+.comment-box button:hover{
+	background-color:#0b7dda;
+}
+.comment-box textarea::selection{
+	outline:none;
+	border:none;
+	
+}
+.comment-box textarea{
+	max-width:100%;
+	
+}
+ textarea:focus{
+
+	
+}

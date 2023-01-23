@@ -1,0 +1,46 @@
+.floating-box {
+    float: left;
+    width: 50%;
+    height: 150px;
+    margin: 10px;
+	border-radius:10px;
+    /*border: 3px solid #73AD21;*/
+	color:white;
+    background-color:#00303f;
+    padding-top:20px;
+    padding-left:10px;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.floating-box:hover {
+    box-shadow:10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+
+.after-box {
+    clear: left;
+	background-color:#00303f;
+    width: 100%;
+	height: 30px;
+	padding-left:10px;
+	color:white;
+	border-radius:10px;
+}
+
+.square {
+  position: relative;
+  width: 50%;
+  background-color:black;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

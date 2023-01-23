@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/side-nav.css">
+<link rel="stylesheet" href="css/box.css">
+<link rel="stylesheet" href="css/table.css">
+<link rel="">
+
+</head>
+<body style="background-color:#efefef!important;">
+
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left addOn" style="width:200px;" id="mySidebar">
+<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+  <a href="dashboard.php" class="w3-bar-item w3-button ">Dashboard</a>
+  <a href="manageUsers.html" class="w3-bar-item w3-button active">Manage Users</a>
+  <a href="#" class="w3-bar-item w3-button">Voting Module</a>
+  <a href="manage_news.html" class="w3-bar-item w3-button">Manage NewsFeed</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container" style="background:white; color:#00303f;">
+    <h1>My Page</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+<a href="#"><div class="floating-box"><img src="img/lawyer.png"><br/> Prosecutors<br/>1000</div></a>
+<a href="#"><div class="floating-box"><img src="img/intern.png"><br/> Interns<br/>1000</div></a>
+<a href="#"><div class="floating-box"><img src="img/guest.png"><br/> Guests<br/>1000</div></a>
+</div>
+<br/>
+
+<div class="w3-container">
+<div class="after-box">Approve Prosecutors</div>
+</div>
+<br/>
+
+<div class="w3-container" style="overflow-x:auto;">
+<table id="tab">
+  <tr>
+    <th>photo</th>
+    <th>Name</th>
+    <th>Email</th>
+	<th>MobileNo.</th>
+	<th>Address</th>
+	<th>Court Name</th>
+	<th>Position</th>
+	<th>Edit</th>
+	<th>Remove</th>
+  </tr>
+  <tr>
+    <td><img src="img/one.gif" height="70px" width="70px"></td>
+    <td>Poras Vyas</td>
+    <td>boyb69@gmail.com</td>
+	<td>+919409541297</td>
+	<td>12-Urvi Park near nextlevel flats ambavadi Ahmedabad - 380007</td>
+	<td>Ahmedabad HighCourt</td>
+	<td>Next Level</td>
+	<td><a href="#" id="1"><img src="img/edit.png" height="15px" width="15px"></a></td>
+	<td><a href="#" id="2"><img src="img/remove.png" height="15px" width="15px"></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/one.gif" height="70px" width="70px"></td>
+    <td>Poras Vyas</td>
+    <td>boyb69@gmail.com</td>
+	<td>+919409541297</td>
+	<td>12-Urvi Park near nextlevel flats ambavadi Ahmedabad - 380007</td>
+	<td>Ahmedabad HighCourt</td>
+	<td>Next Level</td>
+	<td><a href="#" id="1" onclick="javascript:deleteUser(1)"><img src="img/edit.png" height="15px" width="15px" ></a></td>
+	<td><a href="#" id="2"><img src="img/remove.png" height="15px" width="15px"></a></td>
+  </tr>
+  
+</table>
+</div>
+
+   
+</div>
+</body>
+<script src="script/manage_users.js"></script>
+</html>
